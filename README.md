@@ -85,8 +85,7 @@ g++ main.cpp algorithms.cpp display.cpp -o raster.exe -lopengl32 -lglu32 -lfreeg
 ---
 
 ## Running the Program
-
-        ```powershell
+```powershell
 # If you have raster.exe
 .\raster.exe
 
