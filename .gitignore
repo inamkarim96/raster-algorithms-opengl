@@ -1,0 +1,26 @@
+# Compiled executable
+raster.exe
+raster
+
+# Object files
+*.o
+*.obj
+
+# Dependency files
+*.d
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+*.ilk
+
+# Temporary files
+*.tmp
+*.temp
