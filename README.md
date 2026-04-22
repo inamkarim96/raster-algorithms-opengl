@@ -68,30 +68,12 @@ choco install mingw
 ```
 
 ### Step 2: Install FreeGLUT
-**Option 1: Using vcpkg (Recommended)**
-```powershell
-# Install vcpkg
-git clone https://github.com/Microsoft/vcpkg.git
-cd vcpkg
-.\bootstrap-vcpkg.bat
-
-# Install FreeGLUT
-.\vcpkg install freeglut
-```
-
-**Option 2: Using MSYS2**
+**Using MSYS2**
 ```powershell
 # Install MSYS2 from https://www.msys2.org/
 # Then in MSYS2 terminal:
 pacman -S mingw-w64-x86_64-freeglut
 ```
-
-**Option 3: Manual Installation**
-1. Download from [freeglut.sourceforge.net](http://freeglut.sourceforge.net/)
-2. Extract to: `C:\freeglut`
-3. Add to system PATH: `C:\freeglut\bin`
-
----
 
 ## Building the Project
 
